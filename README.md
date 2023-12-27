@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+### Aplicación de Asignación de Presupuesto
+Una aplicación de asignación de presupuesto construida con React es una aplicación web que ayuda a los usuarios a gestionar sus finanzas al permitirles establecer y hacer un seguimiento de su presupuesto mensual para varios gastos como alimentos, servicios públicos, entretenimiento, y más. La aplicación proporciona una interfaz interactiva donde los usuarios pueden ingresar fácilmente sus ingresos, gastos y metas de ahorro.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Características
+Configuración del Presupuesto
+Los usuarios pueden establecer su presupuesto ingresando sus ingresos y categorizando sus gastos. La aplicación calculará automáticamente el monto disponible para cada categoría y proporcionará una representación visual del presupuesto a través de gráficos.
 
-## Available Scripts
+# Seguimiento de Gastos
+Los usuarios pueden realizar un seguimiento de sus gastos ingresando transacciones, que pueden ser categorizadas por fecha, categoría y monto. La aplicación actualizará automáticamente el monto restante del presupuesto para cada categoría según las transacciones ingresadas.
 
-In the project directory, you can run:
+# Metas de Ahorro
+Los usuarios pueden establecer metas de ahorro y hacer un seguimiento de su progreso. La aplicación mostrará cuánto han ahorrado hasta ahora y cuánto necesitan ahorrar para alcanzar su objetivo.
 
-### `npm start`
+# Sistema de Notificaciones
+La aplicación puede enviar notificaciones a los usuarios cuando se acercan a su límite de presupuesto o cuando han alcanzado sus metas de ahorro. Esto ayuda a los usuarios a mantenerse al tanto de sus finanzas y evitar gastos excesivos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación
+Clona el proyecto con git clone.
+Ingresa al directorio del proyecto con cd my-project.
+Instala las dependencias con npm install.
+Inicia la aplicación con npm start.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Documentación
+React
+React Redux
+React Icons
+npm
+JavaScript
 
-### `npm test`
+## Tecnologías Utilizadas
+React: Una biblioteca de JavaScript para construir interfaces de usuario.
+Redux: Un contenedor de estado predecible para aplicaciones JavaScript.
+React-Icons: Una colección de iconos populares para React.
+npm: Un administrador de paquetes para el lenguaje de programación JavaScript.
+JavaScript: Un lenguaje de programación de alto nivel, dinámico e interpretado.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Habilidades
+Competente en React y Redux.
+Conocimiento de HTML, CSS y JavaScript.
+Familiaridad con npm y gestión de paquetes en proyectos JavaScript.
+Habilidades sólidas en la creación de interfaces amigables para el usuario con React.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Demostración
+Enlace a la demostración: https://budget-allocation-app.vercel.app/
